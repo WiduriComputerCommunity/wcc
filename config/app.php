@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost/wcc-web'),
+    'url' => env('APP_URL', 'https://widuricomputercommunity.com'),
 
     'asset_url' => env('ASSET_URL', null),
 

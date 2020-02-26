@@ -73,8 +73,8 @@
                                         </li> --}}
                                     </ul>
                                 </li>
-                                <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
-                                <li><a href="#blog-section" class="nav-link">Blog</a></li>
+                                {{-- <li><a href="#testimonials-section" class="nav-link">Testimonials</a></li>
+                                <li><a href="#blog-section" class="nav-link">Blog</a></li> --}}
                                 <li><a href="#contact-section" class="nav-link">Contact</a></li>
                             </ul>
                         </nav>
@@ -98,8 +98,8 @@
                         <img src="{{asset ("images/WCC-LOGO.png")}}" max-width="100%" width="600" height="200" alt="">
                         <div data-aos="fade-up" data-aos-delay="100">
                             {{-- <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Get In Touch</a> --}}
-                            <h6 class="mb-5" data-aos="fade-up">I'm Creative One Page Template by
-                                Colorlib</h6>
+                            <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami
+                                Untuk saling berbagi ilmu</h4>
                         </div>
                     </div>
                 </div>
@@ -123,8 +123,6 @@
                     </div>
                 </div>
                 <div class="row">
-
-
                     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
                         <div class="team-member">
                             <figure>
@@ -179,6 +177,11 @@
                         </div>
                     </div>
 
+                    
+
+                </div>
+
+                <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-member">
                             <figure>
@@ -196,7 +199,7 @@
                             </div>
                         </div>
                     </div>
-
+    
                     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="team-member">
                             <figure>
@@ -214,7 +217,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>

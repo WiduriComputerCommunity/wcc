@@ -19,8 +19,8 @@
 
     <link rel="stylesheet" href="{{asset ("home/css/bootstrap-datepicker.css")}}">
 
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="{{asset ("home/fonts/flaticon/flaticon.css")}}">
+    <link rel="stylesheet" href="{{asset ("home/fonts/icomoon/style.css")}}">
 
     <link rel="stylesheet" href="{{asset ("home/css/aos.css")}}">
 
@@ -137,8 +137,8 @@
                                 <img src="images/person_5.jpg" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
-                                <h3>Kaiara Spencer</h3>
-                                <span class="position">Product Manager</span>
+                                <h3>Dita Aji Pratama</h3>
+                                <span class="position">Ketua WCC</span>
                             </div>
                         </div>
                     </div>
@@ -155,44 +155,8 @@
                                 <img src="images/person_6.jpg" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
-                                <h3>Dave Simpson</h3>
-                                <span class="position">Product Manager</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
-                        <div class="team-member">
-                            <figure>
-                                <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
-                                </ul>
-                                <img src="images/person_7.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="p-3">
-                                <h3>Ben Thompson</h3>
-                                <span class="position">Product Manager</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="300">
-                        <div class="team-member">
-                            <figure>
-                                <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
-                                </ul>
-                                <img src="images/person_8.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="p-3">
-                                <h3>Kyla Stewart</h3>
-                                <span class="position">Product Manager</span>
+                                <h3>Sandi</h3>
+                                <span class="position">Wakil Ketua WCC</span>
                             </div>
                         </div>
                     </div>
@@ -210,25 +174,7 @@
                             </figure>
                             <div class="p-3">
                                 <h3>Kaiara Spencer</h3>
-                                <span class="position">Product Manager</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="team-member">
-                            <figure>
-                                <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
-                                </ul>
-                                <img src="images/person_2.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="p-3">
-                                <h3>Dave Simpson</h3>
-                                <span class="position">Product Manager</span>
+                                <span class="position">Sekretaris WCC</span>
                             </div>
                         </div>
                     </div>
@@ -242,11 +188,11 @@
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_3.jpg" alt="Image" class="img-fluid">
+                                <img src="images/person_7.jpg" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
-                                <h3>Ben Thompson</h3>
-                                <span class="position">Product Manager</span>
+                                <h3>Firas Muhammad Pratama</h3>
+                                <span class="position">Research & Development</span>
                             </div>
                         </div>
                     </div>
@@ -260,22 +206,20 @@
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_4.jpg" alt="Image" class="img-fluid">
+                                <img src="images/person_8.jpg" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
-                                <h3>Chris Stewart</h3>
-                                <span class="position">Product Manager</span>
+                                <h3>Revli</h3>
+                                <span class="position">Design UI & UX</span>
                             </div>
                         </div>
                     </div>
-
-
 
                 </div>
             </div>
         </section>
 
-        <section class="site-section" id="portfolio-section">
+        {{-- <section class="site-section" id="portfolio-section">
 
 
             <div class="container">
@@ -391,14 +335,9 @@
                 </div>
             </div>
 
-        </section>
+        </section> --}}
 
-
-
-
-
-
-        <section class="site-section border-bottom bg-light" id="services-section">
+        {{-- <section class="site-section border-bottom bg-light" id="services-section">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center" data-aos="fade">
@@ -478,9 +417,9 @@
 
                 </div>
             </div>
-        </section>
+        </section> --}}
 
-        <section class="site-section testimonial-wrap" id="testimonials-section" data-aos="fade">
+        {{-- <section class="site-section testimonial-wrap" id="testimonials-section" data-aos="fade">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center">
@@ -554,9 +493,9 @@
                 </div>
 
             </div>
-        </section>
+        </section> --}}
 
-        <section class="site-section bg-light" id="pricing-section">
+        {{-- <section class="site-section bg-light" id="pricing-section">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center" data-aos="fade-up">
@@ -685,7 +624,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
 
         <section class="site-section" id="about-section">
             <div class="container">
@@ -826,7 +765,7 @@
 
 
 
-                        <form action="#" class="p-5 bg-white">
+                        {{-- <form action="#" class="p-5 bg-white">
 
                             <h2 class="h4 text-black mb-5">Contact Form</h2>
 
@@ -872,7 +811,7 @@
                             </div>
 
 
-                        </form>
+                        </form> --}}
                     </div>
 
                 </div>

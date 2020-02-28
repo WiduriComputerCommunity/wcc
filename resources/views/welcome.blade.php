@@ -26,6 +26,8 @@
 
     <link rel="stylesheet" href="{{asset("home/css/style.css")}}">
 
+    <link rel="shortcut icon" href="{{asset ("images/favicon.png")}}" type="image/x-icon">
+
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -842,10 +844,13 @@
                             </div>
                             <div class="col-md-3">
                                 <h2 class="footer-heading mb-4">Follow Us</h2>
-                                <a href="#" class="pl-0 pr-3"><span class="icon-facebook"></span></a>
-                                <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
-                                <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-                                <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricomputercommunity@gmail.com" target="_blank" class="pl-0 pr-3">
+                                    <img src="{{asset ("images/google.png")}}" width="25px" height="25px" alt="">
+
+                                </a>
+                                <a href="https://instagram.com/widuricc" target="_blank" class="pl-3 pr-3">
+                                    <img src="{{asset ("images/instagram.png")}}" width="25px" height="25px" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>

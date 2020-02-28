@@ -19,8 +19,8 @@
 
     <link rel="stylesheet" href="{{asset ("home/css/bootstrap-datepicker.css")}}">
 
-    <link rel="stylesheet" href="{{asset ("home/fonts/flaticon/flaticon.css")}}">
-    <link rel="stylesheet" href="{{asset ("home/fonts/icomoon/style.css")}}">
+    <link rel="stylesheet" href="{{asset ("home/flaticon/flaticon.css")}}">
+    {{-- <link rel="stylesheet" href="{{asset ("home/icomoon/style.css")}}"> --}}
 
     <link rel="stylesheet" href="{{asset ("home/css/aos.css")}}">
 
@@ -63,7 +63,6 @@
                                     <a href="#about-section" class="nav-link">About Us</a>
                                     <ul class="dropdown">
                                         <li><a href="#team-section" class="nav-link">Team</a></li>
-                                        {{-- <li><a href="#pricing-section" class="nav-link">Pricing</a></li> --}}
                                         <li><a href="#faq-section" class="nav-link">FAQ</a></li>
                                         {{-- <li class="has-children">
                                             <a href="#">More Links</a>
@@ -415,7 +414,7 @@
 
     </div> <!-- .site-wrap -->
 
-    <script src="{{asset ("home/js/jquery-3.3.1.min.js")}}"></script>
+    <script src="{{asset ("home/js/jquery-3.2.1.min.js")}}"></script>
     <script src="{{asset ("home/js/jquery-ui.js")}}"></script>
     <script src="{{asset ("home/js/popper.min.js")}}"></script>
     <script src="{{asset ("home/js/bootstrap.min.js")}}"></script>

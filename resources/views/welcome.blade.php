@@ -332,7 +332,7 @@
 
                     <div class="col-md-4 text-center">
                         <p class="mb-4">
-                            <span class="d-block h4 text-primary"></span>
+                            <span class="icon-room d-block h4 text-primary"></span>
                             <span>
                                 Jl. Palmerah Barat No.353, RT.3/RW.5, 
                                 Grogol Utara, Kec. Kby. Lama, 
@@ -343,13 +343,13 @@
                     </div>
                     <div class="col-md-4 text-center">
                         <p class="mb-4">
-                            <span class="d-block h4 text-primary"></span>
+                            <span class="icon-phone d-block h4 text-primary"></span>
                             <a href="#">+1 232 3235 324</a>
                         </p>
                     </div>
                     <div class="col-md-4 text-center">
                         <p class="mb-0">
-                            <span class="d-block h4 text-primary"></span>
+                            <span class="icon-mail_outline d-block h4 text-primary"></span>
                             <a href="#">widuricomputercommunity@gmail.com</a>
                         </p>
                     </div>
@@ -380,11 +380,10 @@
                             <div class="col-md-3">
                                 <h2 class="footer-heading mb-4">Follow Us</h2>
                                 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricomputercommunity@gmail.com" target="_blank" class="pl-0 pr-3">
-                                    <img src="{{asset ("images/google.png")}}" width="25px" height="25px" alt="">
-
+                                    <span class="icon-google"></span>
                                 </a>
                                 <a href="https://instagram.com/widuricc" target="_blank" class="pl-3 pr-3">
-                                    <img src="{{asset ("images/instagram.png")}}" width="25px" height="25px" alt="">
+                                    <span class="icon-instagram"></span>
                                 </a>
                             </div>
                         </div>

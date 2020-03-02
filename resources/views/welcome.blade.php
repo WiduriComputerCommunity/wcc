@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="{{asset ("home/css/bootstrap-datepicker.css")}}">
 
     <link rel="stylesheet" href="{{asset ("home/flaticon/flaticon.css")}}">
-    {{-- <link rel="stylesheet" href="{{asset ("home/icomoon/style.css")}}"> --}}
+    <link rel="stylesheet" href="{{asset ("home/icomoon/style.css")}}">
 
     <link rel="stylesheet" href="{{asset ("home/css/aos.css")}}">
 

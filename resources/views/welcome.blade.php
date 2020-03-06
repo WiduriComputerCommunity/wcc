@@ -212,7 +212,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+                    <!-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
@@ -228,7 +228,7 @@
                                 <span class="position">Sekretaris WCC</span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     
 

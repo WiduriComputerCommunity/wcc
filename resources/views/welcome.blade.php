@@ -185,7 +185,7 @@
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_5.jpg" alt="Image" class="img-fluid">
+                                <img src="images/struktur/ketua.jpg" style="border-radius: 50%" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
                                 <h3>Dita Aji Pratama</h3>
@@ -203,16 +203,16 @@
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_6.jpg" alt="Image" class="img-fluid">
+                                <img src="images/struktur/wakil.jpg" style="border-radius: 50%" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
-                                <h3>Sandi</h3>
+                                <h3>Sandi Eko Saputro</h3>
                                 <span class="position">Wakil Ketua WCC</span>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+                    {{-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
@@ -228,23 +228,18 @@
                                 <span class="position">Sekretaris WCC</span>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
 
-                    
-
-                </div>
-
-                <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                    {{-- <li><a href="#"><span class="icon-facebook"></span></a></li> --}}
+                                    <li><a href="https://twitter.com/firasmpratama"><span class="icon-twitter"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/firasmpratama"><span class="icon-linkedin"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/firasmpratama"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_7.jpg" alt="Image" class="img-fluid">
+                                <img src="images/struktur/r_d.jpg" style="border-radius: 50%" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
                                 <h3>Firas Muhammad Pratama</h3>
@@ -262,14 +257,19 @@
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_8.jpg" alt="Image" class="img-fluid">
+                                <img src="images/struktur/creative.jpg" style="border-radius: 50%" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
-                                <h3>Revli</h3>
-                                <span class="position">Design UI & UX</span>
+                                <h3>Muhammad Revli Fauzi</h3>
+                                <span class="position">Creative Design</span>
                             </div>
                         </div>
                     </div>
+
+                </div>
+
+                <div class="row">
+                    
                 </div>
             </div>
         </section>

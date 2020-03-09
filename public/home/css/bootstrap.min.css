@@ -8300,7 +8300,8 @@ button.bg-dark:hover {
 }
 
 .p-3 {
-    padding: 1rem !important
+    padding: 1rem !important;
+    text-align: center;
 }
 
 .pt-3,

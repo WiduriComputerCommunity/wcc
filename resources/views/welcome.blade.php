@@ -199,9 +199,9 @@
                             <figure>
                                 <ul class="social">
                                     {{-- <li><a href="#"><span class="icon-facebook"></span></a></li> --}}
-                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                    {{-- <li><a href="#"><span class="icon-twitter"></span></a></li> --}}
+                                    {{-- <li><a href="#"><span class="icon-linkedin"></span></a></li> --}}
+                                    <li><a href="https://www.instagram.com/sandieko_21/"><span class="icon-instagram"></span></a></li>
                                 </ul>
                                 <img src="images/struktur/wakil.jpg" style="border-radius: 50%" alt="Image" class="img-fluid">
                             </figure>

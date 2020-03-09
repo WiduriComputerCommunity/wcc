@@ -171,8 +171,8 @@
                 <div class="row mb-5 justify-content-center">
                     <div class="col-md-8 text-center">
                         <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Our Team</h2>
-                        <p class="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit. Minus minima neque tempora reiciendis.</p>
+                        {{-- <p class="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Minus minima neque tempora reiciendis.</p> --}}
                     </div>
                 </div>
                 <div class="row">
@@ -350,7 +350,9 @@
                     <div class="col-md-4 text-center">
                         <p class="mb-0">
                             <span class="icon-mail_outline d-block h4 text-primary"></span>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricomputercommunity@gmail.com" target="_blank">widuricomputercommunity@gmail.com</a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricomputercommunity@gmail.com" target="_blank">
+                                widuricomputercommunity@gmail.com
+                            </a>
                         </p>
                     </div>
                 </div>

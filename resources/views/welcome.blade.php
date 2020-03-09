@@ -180,7 +180,7 @@
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                    {{-- <li><a href="#"><span class="icon-facebook"></span></a></li> --}}
                                     <li><a href="#"><span class="icon-twitter"></span></a></li>
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>
@@ -198,7 +198,7 @@
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                    {{-- <li><a href="#"><span class="icon-facebook"></span></a></li> --}}
                                     <li><a href="#"><span class="icon-twitter"></span></a></li>
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>
@@ -252,7 +252,7 @@
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                    {{-- <li><a href="#"><span class="icon-facebook"></span></a></li> --}}
                                     <li><a href="#"><span class="icon-twitter"></span></a></li>
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>

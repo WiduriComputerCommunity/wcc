@@ -343,14 +343,14 @@
                     </div>
                     <div class="col-md-4 text-center">
                         <p class="mb-4">
-                            <span class="icon-phone d-block h4 text-primary"></span>
-                            <a href="#">+1 232 3235 324</a>
+                            <span class="icon-whatsapp d-block h4 text-primary"></span>
+                            <a href="https://chat.whatsapp.com/K0OWwbbPdg1CfNUxEBTqJ7">WCC Group</a>
                         </p>
                     </div>
                     <div class="col-md-4 text-center">
                         <p class="mb-0">
                             <span class="icon-mail_outline d-block h4 text-primary"></span>
-                            <a href="#">widuricomputercommunity@gmail.com</a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricomputercommunity@gmail.com" target="_blank">widuricomputercommunity@gmail.com</a>
                         </p>
                     </div>
                 </div>

@@ -102,18 +102,11 @@
             </div>
         </div>
         <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/bootcamp.jpg); width: 100%;">
-            <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-md-8 mt-lg-5 text-center">
-                        <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Register</a>
-                    </div>
-                </div>
-            </div>
 
         </div>
           <!-- Next and previous buttons -->
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            {{-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> --}}
 
             {{-- <a href="#about-section" class="mouse smoothscroll">
                 <span class="mouse-icon">
@@ -122,11 +115,11 @@
             </a> --}}
 
              <!-- The dots/circles -->
-            <div style="text-align:center" class="mouse">
+            {{-- <div style="text-align:center" class="mouse">
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
-            </div>
+            </div> --}}
 
        <section class="site-section" id="blog-section">
             <div class="container">

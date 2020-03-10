@@ -90,7 +90,7 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-8 mt-lg-5 text-center">
-                        <img src="{{asset ("images/WCC-LOGO.png")}}" max-width="100%" width="600" height="200" alt="">
+                        <img src="{{asset ("images/WCC-LOGO.png")}}" width="100%" height="auto" alt="">
                         <div data-aos="fade-up" data-aos-delay="100">
                             <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami
                                 Untuk saling berbagi ilmu</h4>

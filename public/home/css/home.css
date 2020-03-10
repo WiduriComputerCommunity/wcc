@@ -3,6 +3,7 @@
 /* slideshow container */
 .slideshow-container {
   max-width: 100%;
+  min-height: 200px;
   position: relative;
   margin: auto;
   background-size: cover;

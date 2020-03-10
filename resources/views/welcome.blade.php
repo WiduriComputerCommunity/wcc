@@ -90,12 +90,12 @@
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-8 mt-lg-5 text-center">
-                        <img src="{{asset ("images/WCC-LOGO.png")}}" width="100%" height="auto" alt="">
+                        <img src="{{url ("images/WCC-LOGO.png")}}" width="100%" height="auto" alt="">
                         <div data-aos="fade-up" data-aos-delay="100">
                             <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami
                                 Untuk saling berbagi ilmu</h4>
                         </div>
-                        <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Register</a>
+                        <a href="https://bit.ly/2wFMgEO" target="_blank" class="btn smoothscroll btn-primary mr-2 mb-2">Register</a>
 
                     </div>
                 </div>

@@ -24,18 +24,15 @@
 
     <link rel="stylesheet" href="{{asset ("home/css/aos.css")}}">
 
-    <link rel="stylesheet" href="{{asset("home/css/style.css")}}">
+    <link rel="stylesheet" href="{{asset ("home/css/style.css")}}">
+
+    <link rel="stylesheet" href="{{asset ("home/css/home.css")}}">
 
     <link rel="shortcut icon" href="{{asset ("images/favicon.png")}}" type="image/x-icon">
 
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-
-
-
-
     <div class="site-wrap">
 
         <div class="site-mobile-menu site-navbar-target">
@@ -89,31 +86,49 @@
             </div>
         </header>
 
-
-
-        <div class="site-blocks-cover overlay" style="background-image: url(images/wccSlider.jpg);" data-aos="fade"
-            id="home-section">
+        <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/wccSlider.jpg);">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-8 mt-lg-5 text-center">
                         <img src="{{asset ("images/WCC-LOGO.png")}}" max-width="100%" width="600" height="200" alt="">
                         <div data-aos="fade-up" data-aos-delay="100">
-                            {{-- <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Get In Touch</a> --}}
                             <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami
                                 Untuk saling berbagi ilmu</h4>
                         </div>
+                        <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Register</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/bootcamp.jpg); width: 100%;">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-8 mt-lg-5 text-center">
+                        <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Register</a>
                     </div>
                 </div>
             </div>
 
-            <a href="#about-section" class="mouse smoothscroll">
+        </div>
+          <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            {{-- <a href="#about-section" class="mouse smoothscroll">
                 <span class="mouse-icon">
                     <span class="mouse-wheel"></span>
                 </span>
-            </a>
-        </div>
+            </a> --}}
 
-        <section class="site-section" id="blog-section">
+             <!-- The dots/circles -->
+            <div style="text-align:center" class="mouse">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+       <section class="site-section" id="blog-section">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center" data-aos="fade">
@@ -427,7 +442,7 @@
     <script src="{{asset ("home/js/jquery.sticky.js")}}"></script>
     <script src="{{asset ("home/js/isotope.pkgd.min.js")}}"></script>
 
-
+    {{-- <script src="{{asset ("home/js/style.js")}}"></script> --}}
     <script src="{{asset ("home/js/main.js")}}"></script>
 
 

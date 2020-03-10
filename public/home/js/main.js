@@ -359,3 +359,100 @@ jQuery(document).ready(function($) {
 	});
 
 });
+
+// var slideIndex = 1;
+// showSlides(slideIndex);
+
+// function plusSlides(n) {
+//   showSlides(slideIndex += n);
+// }
+
+// function currentSlide(n) {
+//   showSlides(slideIndex = n);
+// }
+
+// function showSlides(n) {
+//   var i;
+//   var slides = document.getElementsByClassName("mySlides");
+//   var dots = document.getElementsByClassName("dot");
+//   if (n > slides.length) {slideIndex = 1}    
+//   if (n < 1) {slideIndex = slides.length}
+//   for (i = 0; i < slides.length; i++) {
+//       slides[i].style.display = "none";  
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//       dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex-1].style.display = "block";  
+//   dots[slideIndex-1].className += " active";
+// }
+
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+} 
+
+// jssor_1_slider_init();
+
+// window.jssor_1_slider_init = function() {
+
+// 	var jssor_1_SlideshowTransitions = [
+// 		{$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+// 		{$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+// 	];
+
+// 	var jssor_1_options = {
+// 		$AutoPlay: 1,
+// 		$SlideshowOptions: {
+// 			$Class: $JssorSlideshowRunner$,
+// 			$Transitions: jssor_1_SlideshowTransitions,
+// 			$TransitionsOrder: 1
+// 		},
+// 		$ArrowNavigatorOptions: {
+// 			$Class: $JssorArrowNavigator$
+// 		},
+// 		$ThumbnailNavigatorOptions: {
+// 			$Class: $JssorThumbnailNavigator$,
+// 			$Orientation: 2,
+// 			$NoDrag: true
+// 		}
+// 	};
+
+// 	var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+// 	/*#region responsive code begin*/
+
+// 	var MAX_WIDTH = 980;
+
+// 	function ScaleSlider() {
+// 			var containerElement = jssor_1_slider.$Elmt.parentNode;
+// 			var containerWidth = containerElement.clientWidth;
+
+// 			if (containerWidth) {
+
+// 					var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+// 					jssor_1_slider.$ScaleWidth(expectedWidth);
+// 			}
+// 			else {
+// 					window.setTimeout(ScaleSlider, 30);
+// 			}
+// 	}
+
+// 	ScaleSlider();
+
+// 	$Jssor$.$AddEvent(window, "load", ScaleSlider);
+// 	$Jssor$.$AddEvent(window, "resize", ScaleSlider);
+// 	$Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+// 	/*#endregion responsive code end*/
+// };

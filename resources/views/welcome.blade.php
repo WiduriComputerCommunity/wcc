@@ -52,7 +52,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-6 col-xl-4">
-                        <h1 class="mb-0 site-logo"><a href="#" class="mb-0">WCC</a></h1>
+                        <h1 class="mb-0 site-logo"><a href="{{url ('/')}}" class="mb-0">WCC</a></h1>
                         <p>Widuri Computer Community</p>
                     </div>
                     <div class="col-12 col-md-8 d-none d-xl-block">

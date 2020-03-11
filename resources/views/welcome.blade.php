@@ -24,18 +24,15 @@
 
     <link rel="stylesheet" href="{{asset ("home/css/aos.css")}}">
 
-    <link rel="stylesheet" href="{{asset("home/css/style.css")}}">
+    <link rel="stylesheet" href="{{asset ("home/css/style.css")}}">
+
+    <link rel="stylesheet" href="{{asset ("home/css/home.css")}}">
 
     <link rel="shortcut icon" href="{{asset ("images/favicon.png")}}" type="image/x-icon">
 
 </head>
 
 <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-
-
-
-
-
     <div class="site-wrap">
 
         <div class="site-mobile-menu site-navbar-target">
@@ -89,31 +86,42 @@
             </div>
         </header>
 
-
-
-        <div class="site-blocks-cover overlay" style="background-image: url(images/wccSlider.jpg);" data-aos="fade"
-            id="home-section">
+        <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/wccSlider.jpg);">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-8 mt-lg-5 text-center">
-                        <img src="{{asset ("images/WCC-LOGO.png")}}" max-width="100%" width="600" height="200" alt="">
+                        <img src="{{url ("images/WCC-LOGO.png")}}" width="100%" height="auto" alt="">
                         <div data-aos="fade-up" data-aos-delay="100">
-                            {{-- <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Get In Touch</a> --}}
                             <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami
                                 Untuk saling berbagi ilmu</h4>
                         </div>
+                        <a href="https://bit.ly/2wFMgEO" target="_blank" class="btn smoothscroll btn-primary mr-2 mb-2">Register</a>
+
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/bootcamp.jpg); width: 100%;">
 
-            <a href="#about-section" class="mouse smoothscroll">
+        </div>
+          <!-- Next and previous buttons -->
+            {{-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a> --}}
+
+            {{-- <a href="#about-section" class="mouse smoothscroll">
                 <span class="mouse-icon">
                     <span class="mouse-wheel"></span>
                 </span>
-            </a>
-        </div>
+            </a> --}}
 
-        <section class="site-section" id="blog-section">
+             <!-- The dots/circles -->
+            {{-- <div style="text-align:center" class="mouse">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div> --}}
+
+       <section class="site-section" id="blog-section">
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center" data-aos="fade">
@@ -171,8 +179,8 @@
                 <div class="row mb-5 justify-content-center">
                     <div class="col-md-8 text-center">
                         <h2 class="section-title mb-3" data-aos="fade-up" data-aos-delay="">Our Team</h2>
-                        <p class="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur
-                            adipisicing elit. Minus minima neque tempora reiciendis.</p>
+                        {{-- <p class="lead" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Minus minima neque tempora reiciendis.</p> --}}
                     </div>
                 </div>
                 <div class="row">
@@ -180,12 +188,12 @@
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                    {{-- <li><a href="#"><span class="icon-facebook"></span></a></li> --}}
                                     <li><a href="#"><span class="icon-twitter"></span></a></li>
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_5.jpg" alt="Image" class="img-fluid">
+                                <img src="images/struktur/ketua.jpg" style="border-radius: 50%" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
                                 <h3>Dita Aji Pratama</h3>
@@ -198,21 +206,25 @@
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                    {{-- <li><a href="#"><span class="icon-facebook"></span></a></li> --}}
+                                    {{-- <li><a href="#"><span class="icon-twitter"></span></a></li> --}}
+                                    {{-- <li><a href="#"><span class="icon-linkedin"></span></a></li> --}}
+                                    <li><a href="https://www.instagram.com/sandieko_21/"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_6.jpg" alt="Image" class="img-fluid">
+                                <img src="images/struktur/wakil.jpg" style="border-radius: 50%" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
-                                <h3>Sandi</h3>
+                                <h3>Sandi Eko Saputro</h3>
                                 <span class="position">Wakil Ketua WCC</span>
                             </div>
                         </div>
                     </div>
 
+<<<<<<< HEAD
                     <!-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+=======
+                    {{-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+>>>>>>> 4833d3b0535b267e6a1cdb1f89f0546b17fc9571
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
@@ -228,23 +240,26 @@
                                 <span class="position">Sekretaris WCC</span>
                             </div>
                         </div>
+<<<<<<< HEAD
                     </div> -->
 
                     
 
                 </div>
+=======
+                    </div> --}}
+>>>>>>> 4833d3b0535b267e6a1cdb1f89f0546b17fc9571
 
-                <div class="row">
                     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                    {{-- <li><a href="#"><span class="icon-facebook"></span></a></li> --}}
+                                    <li><a href="https://twitter.com/firasmpratama"><span class="icon-twitter"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/firasmpratama"><span class="icon-linkedin"></span></a></li>
+                                    <li><a href="https://www.linkedin.com/in/firasmpratama"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_7.jpg" alt="Image" class="img-fluid">
+                                <img src="images/struktur/r_d.jpg" style="border-radius: 50%" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
                                 <h3>Firas Muhammad Pratama</h3>
@@ -257,19 +272,24 @@
                         <div class="team-member">
                             <figure>
                                 <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                    {{-- <li><a href="#"><span class="icon-facebook"></span></a></li> --}}
                                     <li><a href="#"><span class="icon-twitter"></span></a></li>
                                     <li><a href="#"><span class="icon-linkedin"></span></a></li>
                                     <li><a href="#"><span class="icon-instagram"></span></a></li>
                                 </ul>
-                                <img src="images/person_8.jpg" alt="Image" class="img-fluid">
+                                <img src="images/struktur/creative.jpg" style="border-radius: 50%" alt="Image" class="img-fluid">
                             </figure>
                             <div class="p-3">
-                                <h3>Revli</h3>
-                                <span class="position">Design UI & UX</span>
+                                <h3>Muhammad Revli Fauzi</h3>
+                                <span class="position">Creative Design</span>
                             </div>
                         </div>
                     </div>
+
+                </div>
+
+                <div class="row">
+                    
                 </div>
             </div>
         </section>
@@ -343,14 +363,16 @@
                     </div>
                     <div class="col-md-4 text-center">
                         <p class="mb-4">
-                            <span class="icon-phone d-block h4 text-primary"></span>
-                            <a href="#">+1 232 3235 324</a>
+                            <span class="icon-whatsapp d-block h4 text-primary"></span>
+                            <a href="https://chat.whatsapp.com/K0OWwbbPdg1CfNUxEBTqJ7">WCC Group</a>
                         </p>
                     </div>
                     <div class="col-md-4 text-center">
                         <p class="mb-0">
                             <span class="icon-mail_outline d-block h4 text-primary"></span>
-                            <a href="#">widuricomputercommunity@gmail.com</a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricomputercommunity@gmail.com" target="_blank">
+                                widuricomputercommunity@gmail.com
+                            </a>
                         </p>
                     </div>
                 </div>
@@ -425,7 +447,7 @@
     <script src="{{asset ("home/js/jquery.sticky.js")}}"></script>
     <script src="{{asset ("home/js/isotope.pkgd.min.js")}}"></script>
 
-
+    {{-- <script src="{{asset ("home/js/style.js")}}"></script> --}}
     <script src="{{asset ("home/js/main.js")}}"></script>
 
 

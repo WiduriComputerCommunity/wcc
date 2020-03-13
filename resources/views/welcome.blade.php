@@ -89,14 +89,14 @@
 
         <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/wccslidervector.png);">
             <div class="container">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-md-8 mt-lg-5 text-center">
+                <div class="row align-items-center justify-content-left">
+                    <div class="col-md-8 mt-lg-5 text-left">
                         <!--<img src="{{url ("images/WCC-LOGO.png")}}" width="100%" height="auto" alt="">-->
-                        <div data-aos="fade-up" data-aos-delay="100">
-                            <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami
-                                Untuk saling berbagi ilmu</h4>
+                        <div data-aos="fade-up" data-aos-delay="500">
+                            <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami<br/>
+                            untuk saling belajar dan berbagi ilmu <br/>pengetahuan didalam bidang teknologi.</h4>
                         </div>
-                        <a href="https://bit.ly/2wFMgEO" target="_blank" class="btn smoothscroll btn-primary mr-2 mb-2">Register</a>
+                        <a href="https://bit.ly/2wFMgEO" target="_blank" class="btn smoothscroll btn-primary mr-2 mb-2">Daftar</a>
 
                     </div>
                 </div>

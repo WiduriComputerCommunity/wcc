@@ -49,8 +49,7 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-6 col-xl-4">
-                        <h1 class="mb-0 site-logo"><a href="{{url ('/')}}" class="mb-0">WCC</a></h1>
-                        <p>Widuri Computer Community</p>
+                        <img src="/images/WCC-LOGO.png" alt="Image" class="img-fluid rounded" width="60%">
                     </div>
                     <div class="col-12 col-md-8 d-none d-xl-block">
                         <nav class="site-navigation position-relative text-right" role="navigation">
@@ -91,10 +90,14 @@
             <div class="container">
                 <div class="row align-items-center justify-content-left">
                     <div class="col-md-8 mt-lg-5 text-left">
-                        <!--<img src="{{url ("images/WCC-LOGO.png")}}" width="100%" height="auto" alt="">-->
                         <div data-aos="fade-up" data-aos-delay="500">
-                            <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami<br/>
-                            untuk saling belajar dan berbagi ilmu <br/>pengetahuan didalam bidang teknologi.</h4>
+                            <div class="container">
+                                <div class="row mb-5">
+                                    <h2 class="section-title mb-3"><br/><b>WIDURI COMPUTER <br/> COMMUNITY<b></h2>
+                                    <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami<br/>untuk saling belajar dan berbagi ilmu <br/>
+                                    pengetahuan didalam bidang teknologi.</h4>
+                                </div>
+                            </div>
                         </div>
                         <a href="https://bit.ly/2wFMgEO" target="_blank" class="btn smoothscroll btn-primary mr-2 mb-2">Daftar</a>
 
@@ -282,7 +285,7 @@
                             </figure>
                             <div class="p-3">
                                 <h3>Muhammad Revli Fauzi</h3>
-                                <span class="position">Creative Design</span>
+                                <span class="position">Creative Designer</span>
                             </div>
                         </div>
                     </div>

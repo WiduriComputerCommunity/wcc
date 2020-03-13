@@ -87,11 +87,11 @@
             </div>
         </header>
 
-        <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/wccSlider.jpg);">
+        <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/wccslidervector.png);">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-md-8 mt-lg-5 text-center">
-                        <img src="{{url ("images/WCC-LOGO.png")}}" width="100%" height="auto" alt="">
+                        <!--<img src="{{url ("images/WCC-LOGO.png")}}" width="100%" height="auto" alt="">-->
                         <div data-aos="fade-up" data-aos-delay="100">
                             <h4 class="mb-5" data-aos="fade-up">Jadilah bagian dari komunitas kami
                                 Untuk saling berbagi ilmu</h4>
@@ -102,7 +102,7 @@
                 </div>
             </div>
         </div>
-        <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/bootcamp.jpg); width: 100%;">
+        <!-- <div class="slideshow-container overlay mySlides" data-aos="fade"id="home-section" style="background-image: url(images/bootcamp.jpg); width: 100%;"> -->
 
         </div>
           <!-- Next and previous buttons -->
@@ -371,7 +371,7 @@
                     <div class="col-md-4 text-center">
                         <p class="mb-0">
                             <span class="icon-mail_outline d-block h4 text-primary"></span>
-                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricomputercommunity@gmail.com" target="_blank">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricc@gmail.com" target="_blank">
                                 widuricomputercommunity@gmail.com
                             </a>
                         </p>
@@ -402,7 +402,7 @@
                             </div>
                             <div class="col-md-3">
                                 <h2 class="footer-heading mb-4">Follow Us</h2>
-                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricomputercommunity@gmail.com" target="_blank" class="pl-0 pr-3">
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=widuricc@gmail.com" target="_blank" class="pl-0 pr-3">
                                     <span class="icon-google"></span>
                                 </a>
                                 <a href="https://instagram.com/widuricc" target="_blank" class="pl-3 pr-3">

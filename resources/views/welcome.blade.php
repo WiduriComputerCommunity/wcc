@@ -244,15 +244,11 @@
                                 <span class="position">Sekretaris WCC</span>
                             </div>
                         </div>
-<<<<<<< HEAD
                     </div> -->
 
                     
 
                 </div>
-=======
-                    </div> --}}
->>>>>>> 4833d3b0535b267e6a1cdb1f89f0546b17fc9571
 
                     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-member">

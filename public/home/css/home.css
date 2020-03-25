@@ -171,10 +171,24 @@
 @-webkit-keyframes fade {
   from {opacity: .4;}
   to {opacity: 1;}
-}
+}align-items: center;
 
 @keyframes fade {
   from {opacity: .4;}
   to {opacity: 1;}
 }
 
+.kotak {
+  text-align: center;
+}
+
+.isi {
+  display: inline-block;
+  border: 3px solid #2561a8;
+  width: 300px;
+  height: 350px; 
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 50px;
+  padding:5px;
+  text-align: center;
+}

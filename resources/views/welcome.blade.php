@@ -129,9 +129,41 @@
             <div class="container">
                 <div class="row mb-5">
                     <div class="col-12 text-center" data-aos="fade">
-                        <h2 class="section-title mb-3">Apa itu WCC ?</h2>
+                        <h2 class="section-title mb-3">Apa itu WCC ?</h2></br>
+                        <h4 class="mb-5" data-aos="fade-up">
+                        WCC (Widuri Computer Community) adalah komunitas wadah belajar</br>
+                        mahasiswa/i STMIK WIDURI untuk mengasah kemampuan belajar keahlian</br>
+                        mahasiswa dan mahasiswi dengan berbagi ilmu pengetahuan dan pengalaman</br>
+                        khususnya di bidang teknologi ilmu komputer.
+                        </h4>
                     </div>
                 </div>
+
+                <div class="kotak">
+                    <div class="isi"></br>
+                            <img src="images/belajar.png" alt="Image" width="100" height="100">
+                            <h4 class="mb-5" data-aos="fade-up"></br>
+                                <p><b>Belajar</b> </br> mempraktikkan ilmu teknologi komputer dengan bertahap dan terstruktur.</p>
+                            </h4>
+                    </div> &nbsp; &nbsp; &nbsp;
+
+                    <div class="isi"></br>
+                            <img src="images/berdiskusi.png" alt="Image" width="100" height="100">
+                            <h4 class="mb-5" data-aos="fade-up"></br>
+                                <p><b>Berdiskusi</b> </br> berbagi ilmu pengetahuan serta pengalaman dalam dunia teknologi.</p>
+                            </h4>
+                    </div> &nbsp; &nbsp; &nbsp;
+
+                    <div class="isi"></br>
+                            <img src="images/berkarya.png" alt="Image" width="100" height="100">
+                            <h4 class="mb-5" data-aos="fade-up"></br>
+                                <p><b>Berkarya</b> </br> membuat dan menciptakan teknologi untuk generasi yang akan datang.</p>
+                            </h4>
+                    </div> &nbsp; &nbsp; &nbsp;
+                </div>
+
+            </br> </br> </br>            
+
 
                 <div class="row">
                     <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="">
@@ -224,6 +256,32 @@
                         </div>
                     </div>
 
+<<<<<<< HEAD
+                    <!-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+=======
+                    {{-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
+>>>>>>> 4833d3b0535b267e6a1cdb1f89f0546b17fc9571
+                        <div class="team-member">
+                            <figure>
+                                <ul class="social">
+                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
+                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
+                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
+                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
+                                </ul>
+                                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
+                            </figure>
+                            <div class="p-3">
+                                <h3>Kaiara Spencer</h3>
+                                <span class="position">Sekretaris WCC</span>
+                            </div>
+                        </div>
+                    </div> -->
+
+                    
+
+                </div>
+
                     <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-member">
                             <figure>
@@ -260,31 +318,15 @@
                         </div>
                     </div>
 
-                    <!-- <div class="col-md-6 col-lg-3 mb-4" data-aos="fade-up" data-aos-delay="">
-                        <div class="team-member">
-                            <figure>
-                                <ul class="social">
-                                    <li><a href="#"><span class="icon-facebook"></span></a></li>
-                                    <li><a href="#"><span class="icon-twitter"></span></a></li>
-                                    <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                                    <li><a href="#"><span class="icon-instagram"></span></a></li>
-                                </ul>
-                                <img src="images/person_1.jpg" alt="Image" class="img-fluid">
-                            </figure>
-                            <div class="p-3">
-                                <h3>Kaiara Spencer</h3>
-                                <span class="position">Sekretaris WCC</span>
-                            </div>
-                        </div>
-                    </div> -->
+                </div>
 
+                <div class="row">
                     
-
                 </div>
             </div>
         </section>
 
-        {{-- <section class="site-section" id="about-section">
+        <section class="site-section" id="about-section">
             <div class="container">
                 <div class="row mb-5">
 
@@ -327,7 +369,7 @@
 
                 </div>
             </div>
-        </section> --}}
+        </section>
 
         <section class="site-section bg-light" id="contact-section" data-aos="fade">
             <div class="container">
@@ -336,8 +378,10 @@
                         <h2 class="section-title mb-3">Contact Us</h2>
                     </div>
                 </div>
-
                 <div class="row mb-5">
+
+
+
                     <div class="col-md-4 text-center">
                         <p class="mb-4">
                             <span class="icon-room d-block h4 text-primary"></span>
